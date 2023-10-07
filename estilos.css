@@ -1,0 +1,68 @@
+
+
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background: #000000;
+	color: #ffffff;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+	display: flex;
+    justify-content: center;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+    justify-content: center;
+	
+}
+
+.pagina {
+	position: fixed;
+	bottom: 0;
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 1px;
+}
+
+.pagina button {
+	cursor: pointer;
+	border: 2px solid #f44336;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: rgb(0, 0, 0);
+	color: #ffffff;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	transition: .3s ease all;
+	margin-right:20px;
+	margin-bottom: 50px;
+}
+
+.pagina button:hover {
+	background: #d30000;
+}
